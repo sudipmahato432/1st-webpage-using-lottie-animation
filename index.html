@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple site</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url(site.jfif);
+        }
+        header{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 50px;
+            margin: 8px;
+            border-radius: 10px;
+            background-color: black;
+        }
+        nav{
+            display: flex; 
+            margin-left: 20px;
+        }
+        .login{
+            margin-right: 1rem;
+        }
+        ul a{
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+        }
+        main{
+            display: flex;
+            white-space:nowrap;
+            overflow-x:auto;
+            margin-bottom: 40vh;
+        }
+        .box{
+            margin: 30px;
+            padding: 30px;
+            border-radius: 10px;
+            color: white;
+            width: fit-content;
+            background-color: rgba(179, 105, 139, 0.4);
+            
+            
+        }
+        .gap{
+            top: 0;
+             height: 90vh;
+             display: flex;
+             justify-content: center;
+        }
+        #Home{
+            text-align: center;
+            color: rgb(190, 60, 60);
+        }
+        #about{
+             display: flex;
+             justify-content: center;
+        }
+        #about p{
+            width: 80rem;
+            text-align: center;
+            color: white;
+            background-color: rgba(179, 105, 139, 0.4);
+            margin-top: 8px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        #About{
+            text-align: center;
+            color: rgb(204, 70, 70);
+        }
+        .animation{
+            display: flex;
+            justify-content: center;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul><a href="#Home">Home</a></ul>
+            <ul><a href="#About">About</a></ul>
+            <ul><a href="#">Contact</a></ul>
+        </nav>
+        <ul class="login"><a href="#">Log in</a></ul>
+    </header>
+    <div class="gap">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets5.lottiefiles.com/packages/lf20_pzvpyj0f.json"  background="transparent"  speed="1"  style="width: 21rem;height: 30rem;"  loop  autoplay></lottie-player>
+    </div>
+    <h1 id="Home">Home</h1>
+    <main>
+        <div class="box1 box">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> At ab, rem cum tenetur consequuntur magnam in quas vero itaque illo perspiciatis<br> a reiciendis voluptate quos. Quasi porro natus quas repellat perferendis aut minima excepturi?</div>
+        <div class="box2 box">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Nostrum cum velit doloribus? Consequuntur repellat mollitia possimus,<br> dolorem id laudantium, velit cupiditate eveniet ullam fugit nulla dolorum odit magnam officiis eligendi<br> voluptatibus suscipit sunt. Ducimus?</div>
+        <div class="box3 box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, quos. Tempora quis architecto nostrum beatae aperiam non odit<br> vero ducimus amet pariatur molestiae fugiat doloribus eum unde quaerat modi porro,<br> quod, rem delectus excepturi? Asperiores natus officiis quae cupiditate <br>aspernatur amet qui sed dolorem.</div>
+        <div class="box4 box">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Omnis, quam asperiores. Assumenda qui praesentium, nesciunt cumque tempora deserunt<br> quos incidunt id sapiente eaque. Et doloremque magnam est, illo voluptatum eum sint incidunt natus autem?</div>
+    </main>
+    <div class="animation">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_hjnzpe2w.json"  background="transparent"  speed="1"  style="width: 500px; height: 500px;" hover loop  ></lottie-player>
+    </div>
+    <h1 id="About">About</h1>
+    <div id="about">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id voluptatibus exercitationem amet, provident itaque voluptatem impedit consectetur quibusdam quam earum numquam nostrum laudantium eligendi cumque non praesentium laborum laboriosam mollitia quae aperiam reprehenderit eius! Iure reprehenderit accusamus quibusdam natus fugiat pariatur, voluptatum exercitationem nobis, quos blanditiis possimus cum, voluptas ipsum cupiditate laborum nihil maxime perferendis quia.</p>
+    </div>
+</body>
+</html>
